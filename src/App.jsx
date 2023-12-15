@@ -21,7 +21,7 @@ const App = () => {
 	return (
 		<main>
 			<section className='menu'>
-				<Title text='Our Menu' />
+				<Title text="Roy's Menu" />
 				<Categories categories={categories} filterItems={filterItems} />
 				<Menu items={menuItems} />
 			</section>
